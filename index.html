@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>CYXYM</title>
+    <meta
+      name="yandex-tableau-widget"
+      content="logo=https://cyxym.cf/logos/Logo.png, color=#CD3333"
+    />
+    <meta
+      name="Description"
+      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+    />
+    <meta name="yandex-verification" content="e20760739c7b4ca0" />
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#CD3333" />
+    <meta name="viewport" content="width=device-width" />
+    <meta itemprop="name" content="CYXYM" />
+    <meta
+      itemprop="description"
+      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+    />
+    <meta itemprop="image" content="/images/CYXYMOG.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" href="/images/CYXYMOG.jpg" />
+    <meta property="og:url" content="https://cyxym.cf" />
+    <meta property="og:title" content="CYXYM" />
+    <meta
+      property="og:description"
+      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+    />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://cyxym.cf" />
+    <meta name="twitter:title" content="CYXYM" />
+    <meta
+      name="twitter:description"
+      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+    />
+    <meta name="twitter:image" href="/images/CYXYMOG.jpg" />
+    <link rel="manifest" href="manifest.json" />
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"
+      integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
+    <link rel="apple-touch-icon" sizes="128x128" href="logos/logo-128.png" />
+    <link rel="apple-touch-icon" sizes="64x64" href="logos/logo-64.png" />
+    <link rel="apple-touch-icon" sizes="32x32" href="logos/logo-32.png" />
+    <link rel="apple-touch-icon" sizes="16x16" href="logos/logo-16.png" />
+    <link
+      rel="icon"
+      type="img/png"
+      href="/logos/logo-r-128.png"
+      sizes="128x128"
+    />
+    <link rel="icon" type="img/png" href="/logos/logo-r-64.png" sizes="64x64" />
+    <link rel="icon" type="img/png" href="/logos/logo-r-32.png" sizes="32x32" />
+    <link rel="icon" type="img/png" href="/logos/logo-r-16.png" sizes="16x16" />
+    <script src="/scripts/main.js"></script>
+  </head>
+
+  <body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+          try {
+            w.yaCounter48432014 = new Ya.Metrika({
+              id: 48432014,
+              clickmap: true,
+              trackLinks: true,
+              accurateTrackBounce: true,
+              webvisor: true
+            });
+          } catch (e) {}
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function() {
+            n.parentNode.insertBefore(s, n);
+          };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "../mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+          d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+          f();
+        }
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/48432014"
+          style="position:absolute; left:-9999px;"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <header>
+      <nav>
+        <a href="history">ИСТОРИЯ</a>
+        <a href="guide">ГИД</a>
+        <a href="people">ЛЮДИ</a>
+      </nav>
+    </header>
+    <main>
+      <h1>CYXYM</h1>
+      <figure>
+        <img src="/images/CYXYM.jpg" alt="Сухумский берег. Море" />
+      </figure>
+      <h6>© 2019 | От жителей Сухума</h6>
+    </main>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js", {
+          scope: "/"
+        });
+      }
+    </script>
+  </body>
+</html>
