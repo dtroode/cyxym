@@ -11,8 +11,14 @@
   --gray: #e5e5e5;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   margin: 1rem;
+  color: var(--foreground);
+  background-color: var(--background);
 }
 
 body > * {
@@ -27,6 +33,7 @@ header nav a {
 
 main nav {
   margin-top: 3rem;
+  color: var(--gray);
 }
 
 nav,
@@ -126,9 +133,6 @@ a:hover {
 
 figure {
   display: table;
-}
-
-figure {
   width: 100%;
   margin: 0;
   background: linear-gradient(0deg, var(--gray), transparent);
