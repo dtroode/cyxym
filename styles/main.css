@@ -11,6 +11,16 @@
   --gray: #e5e5e5;
 }
 
+*::selection {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
+*::-moz-selection {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
 html {
   font-size: 18px;
 }
