@@ -1,14 +1,22 @@
 @font-face {
-  font-family: Helvetica;
+  font-family: "PT Root UI";
   font-display: fallback;
-  src: url("/fonts/Helvetica.otf");
+  font-weight: normal;
+  src: url("/fonts/PT\ Root\ UI_Regular.woff2?v=3.5") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Root UI";
+  font-display: fallback;
+  font-weight: bold;
+  src: url("/fonts/PT\ Root\ UI_Bold.woff2?v=3.5") format("woff2");
 }
 
 :root {
   --background: #ffffff;
   --foreground: #000000;
   --accent: #cd3333;
-  --gray: #e5e5e5;
+  --gray: rgba(204, 204, 204, 0.5);
 }
 
 *::selection {
@@ -23,6 +31,7 @@
 
 html {
   font-size: 18px;
+  font-family: "PT Root UI", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -63,6 +72,7 @@ h3 {
 
 nav a {
   margin: 0.296rem;
+  white-space: pre;
 }
 
 h1,
@@ -71,7 +81,6 @@ h3,
 h6,
 nav a,
 nav span {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -79,7 +88,7 @@ h1,
 h2,
 h3 {
   line-height: 1.25em;
-  letter-spacing: -0.022em;
+  letter-spacing: -0.012em;
 }
 
 h1,
@@ -94,12 +103,13 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   display: table;
-  height: 5rem;
+  height: 4.5rem;
   margin-top: 1rem;
   margin-bottom: -2.5rem;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
+  border: 1.5px solid var(--gray);
   font-size: 3.375rem;
-  line-height: 5rem;
+  line-height: 4.5rem;
   background-color: var(--background);
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25);
 }
@@ -128,7 +138,7 @@ h6 {
 
 p {
   margin: 1rem 0 0 0;
-  font-family: "Times New Roman", serif;
+  font-weight: normal;
 }
 
 a {
@@ -141,11 +151,15 @@ a:hover {
   color: var(--accent);
 }
 
+a.active {
+  color: var(--gray);
+  pointer-events: none;
+  cursor: default;
+}
+
 figure {
-  display: table;
   width: 100%;
   margin: 0;
-  background: linear-gradient(0deg, var(--gray), transparent);
 }
 
 figure:not(:first-of-type) {
@@ -157,13 +171,8 @@ img {
   width: 100%;
 }
 
-img.double {
-  display: inline-block;
-  width: 49%;
-}
-
-img.double:nth-of-type(2) {
-  float: right;
+img + img {
+  margin-top: 1rem;
 }
 
 figcaption {

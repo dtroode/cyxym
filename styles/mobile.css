@@ -7,10 +7,4 @@
     margin-bottom: 1rem;
     box-shadow: unset;
   }
-  img.double {
-    width: 100%;
-  }
-  img.double:nth-of-type(2) {
-    float: unset;
-  }
 }
