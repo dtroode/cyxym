@@ -16,7 +16,7 @@
   --background: #ffffff;
   --foreground: #000000;
   --accent: #cd3333;
-  --gray: rgba(204, 204, 204, 0.5);
+  --gray: rgba(204, 204, 204, 0.75);
 }
 
 *::selection {
