@@ -300,7 +300,25 @@
         Добраться до него можно от остановки "Ботанический сад" пешком по
         лестнице.
       </p>
-      <h6>© 2019 | От жителей Сухума</h6>
+      <h6>
+        © <span id="year"></span> ·
+        <a href="https://davidkistauri.now.sh" target="_blank" rel="noopener"
+          >Давид Кистаури</a
+        >
+        и
+        <a
+          href="/humans.txt
+          "
+          target="_blank" rel="noopener" >друзья</a
+        >
+      </h6>
     </main>
+    <script>
+      const container = document.getElementById("year");
+      const date = new Date();
+      const year = date.getFullYear();
+
+      container.innerHTML = year;
+    </script>
   </body>
 </html>
