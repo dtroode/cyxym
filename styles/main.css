@@ -55,12 +55,17 @@ main nav {
   color: var(--gray);
 }
 
+footer {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 nav,
 h1,
 h2,
 h3,
-h6,
-figcaption {
+figcaption,
+footer {
   text-align: center;
 }
 
@@ -78,9 +83,9 @@ nav a {
 h1,
 h2,
 h3,
-h6,
 nav a,
-nav span {
+nav span,
+footer {
   font-weight: bold;
 }
 
@@ -125,15 +130,9 @@ h3 {
   margin-bottom: 1rem;
 }
 
-h6,
 p {
   font-size: 1rem;
   line-height: 1.5em;
-}
-
-h6 {
-  margin-top: 1rem;
-  margin-bottom: 0;
 }
 
 p {
