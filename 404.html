@@ -80,10 +80,27 @@
           Такого места нет в сухуме :(<br />Но вы можете полюбоваться другими.
         </figcaption>
       </figure>
-      <footer>
-        <a class="link" href="/">На главную страницу</a><br />© 2018 | От
-        жителей Сухума
-      </footer>
     </main>
+    <footer>
+      © <span id="year"></span> ·
+      <a href="https://davidkistauri.now.sh" target="_blank" rel="noopener"
+        >Давид Кистаури</a
+      >
+      и
+      <a
+        href="/humans.txt
+      "
+        target="_blank"
+        rel="noopener"
+        >друзья</a
+      >
+    </footer>
+    <script>
+      const container = document.getElementById("year");
+      const date = new Date();
+      const year = date.getFullYear();
+
+      container.innerHTML = year;
+    </script>
   </body>
 </html>
