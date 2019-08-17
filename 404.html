@@ -1,60 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="theme-color" content="#CD3333" />
-    <meta itemprop="name" content="Error 404" />
-    <meta itemprop="description" content="Вы ошиблись местом" />
-    <meta itemprop="image" content="/images/404.png" />
+    <title>CYXYM</title>
+
+    <!-- HTML Meta Tags -->
+    <meta
+      name="Description"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
+    />
+    <meta name="theme-color" content="#COLOUR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" cont="ie=edge" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="CYXYM" />
+    <meta
+      itemprop="description"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
+    />
+    <meta
+      itemprop="image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- Facebook Open Graph Meta Tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" href="/images/404.png" />
-    <meta property="og:url" content="aboutdavid.html" />
-    <meta property="og:title" content="Error 404" />
-    <meta property="og:description" content="Вы ошиблись местом" />
+    <meta
+      property="og:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+    <meta property="og:url" content="https://cyxym.netlify.com" />
+    <meta property="og:title" content="CYXYM" />
+    <meta
+      property="og:description"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
+    />
     <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="aboutdavid.html" />
-    <meta name="twitter:title" content="Error 404" />
-    <meta name="twitter:description" content="Вы ошиблись местом" />
-    <meta name="twitter:image" href="/images/404.png" />
-    <title>Error 404</title>
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
-    <link rel="apple-touch-icon" sizes="128x128" href="/logos/logo-128.png" />
-    <link rel="apple-touch-icon" sizes="64x64" href="/logos/logo-64.png" />
-    <link rel="apple-touch-icon" sizes="32x32" href="/logos/logo-32.png" />
-    <link rel="apple-touch-icon" sizes="16x16" href="/logos/logo-16.png" />
+    <meta name="twitter:url" content="https://cyxym.netlify.com" />
+    <meta name="twitter:title" content="CYXYM" />
+    <meta
+      name="twitter:description"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
+    />
+    <meta
+      name="twitter:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- IOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="CYXYM" />
+
+    <!-- Linked files -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
     <link
-      rel="icon"
-      type="img/png"
-      href="/logos/logo-r-128.html"
+      rel="stylesheet"
+      href="/src/styles/mobile.css"
+      media="none"
+      onload="if(media!='screen and (max-width: 768px)')media='screen and (max-width: 768px)'"
+    />
+    <link rel="stylesheet" href="/src/styles/dark.css" />
+
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon"
       sizes="128x128"
+      href="/src/images/logos/logo-128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
     />
     <link
       rel="icon"
+      sizes="128x128"
+      href="/src/images/logos/logo-128.png"
       type="img/png"
-      href="/logos/logo-r-64.html"
-      sizes="64x64"
     />
-    <link rel="icon" type="img/png" href="/logos/logo-r-32.png" sizes="32x32" />
-    <link rel="icon" type="img/png" href="/logos/logo-r-16.png" sizes="16x16" />
+    <link
+      rel="icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
+      type="img/png"
+    />
   </head>
+
   <body>
-    <style type="text/css">
-      body {
-        background-color: #cd3333;
+    <style>
+      body,
+      h1 {
+        background-color: var(--accent);
       }
       h1 {
-        background-color: #cd3333;
-      }
-      iframe {
-        width: 100%;
-        height: 500px;
-        border-radius: 0.444rem;
-      }
-      h6 a {
-        text-decoration: underline;
+        border-color: rgba(150, 18, 18, 0.75);
       }
       a:hover {
         color: var(--background);
@@ -63,22 +130,15 @@
     <header>
       <nav>
         <a href="/">CYXYM</a>
-        <a href="/history">ИСТОРИЯ</a>
-        <a href="/guide">ГИД</a>
-        <a href="/people">ЛЮДИ</a>
+        <a href="/history">История</a>
+        <a href="/guide">Гид</a>
+        <a href="/people">Люди</a>
       </nav>
     </header>
     <main>
       <h1>404</h1>
-      <figure class="map">
-        <iframe
-          src="https://yandex.ru/map-widget/v1/-/CBq0M4Hw3D"
-          frameborder="0"
-        ></iframe>
-
-        <figcaption>
-          Такого места нет в сухуме :(<br />Но вы можете полюбоваться другими.
-        </figcaption>
+      <figure>
+        <img src="/src/images/error-main.jpg" alt="Код ошибки: 404" />
       </figure>
     </main>
     <footer>
@@ -88,19 +148,11 @@
       >
       и
       <a
-        href="/humans.txt
+        href="/about
       "
-        target="_blank"
-        rel="noopener"
         >друзья</a
       >
     </footer>
-    <script>
-      const container = document.getElementById("year");
-      const date = new Date();
-      const year = date.getFullYear();
-
-      container.innerHTML = year;
-    </script>
+    <script async src="/src/scripts/date.js"></script>
   </body>
 </html>

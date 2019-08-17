@@ -2,69 +2,131 @@
 <html lang="ru">
   <head>
     <title>CYXYM</title>
+
+    <!-- HTML Meta Tags -->
     <meta
       name="Description"
-      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
     />
-    <meta name="yandex-verification" content="e20760739c7b4ca0" />
-    <meta charset="utf-8" />
-    <meta name="theme-color" content="#CD3333" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#COLOUR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" cont="ie=edge" />
+
+    <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="CYXYM" />
     <meta
       itemprop="description"
-      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
     />
-    <meta itemprop="image" content="/images/CYXYMOG.jpg" />
+    <meta
+      itemprop="image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- Facebook Open Graph Meta Tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" href="/images/CYXYMOG.jpg" />
-    <meta property="og:url" content="https://cyxym.cf" />
+    <meta
+      property="og:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+    <meta property="og:url" content="https://cyxym.netlify.com" />
     <meta property="og:title" content="CYXYM" />
     <meta
       property="og:description"
-      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
     />
     <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://cyxym.cf" />
+    <meta name="twitter:url" content="https://cyxym.netlify.com" />
     <meta name="twitter:title" content="CYXYM" />
     <meta
       name="twitter:description"
-      content="Хэй! Это сайт города Сухум. Мы находимся в Республике Абхазия, здесь солнечно, тепло и дружелюбно, поэтому мы и ждем вас. Заходите, чтоб узнать больше о городе и его особенностях!"
+      content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
     />
-    <meta name="twitter:image" href="/images/CYXYMOG.jpg" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/dark.css" />
-    <link rel="apple-touch-icon" sizes="128x128" href="logos/logo-128.png" />
-    <link rel="apple-touch-icon" sizes="64x64" href="logos/logo-64.png" />
-    <link rel="apple-touch-icon" sizes="32x32" href="logos/logo-32.png" />
-    <link rel="apple-touch-icon" sizes="16x16" href="logos/logo-16.png" />
+    <meta
+      name="twitter:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- IOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="CYXYM" />
+
+    <!-- Linked files -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="/src/styles/mobile.css"
+      media="none"
+      onload="if(media!='screen and (max-width: 768px)')media='screen and (max-width: 768px)'"
+    />
+    <link rel="stylesheet" href="/src/styles/dark.css" />
+
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="/src/images/logos/logo-128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
+    />
     <link
       rel="icon"
-      type="img/png"
-      href="/logos/logo-r-128.png"
       sizes="128x128"
+      href="/src/images/logos/logo-128.png"
+      type="img/png"
     />
-    <link rel="icon" type="img/png" href="/logos/logo-r-64.png" sizes="64x64" />
-    <link rel="icon" type="img/png" href="/logos/logo-r-32.png" sizes="32x32" />
-    <link rel="icon" type="img/png" href="/logos/logo-r-16.png" sizes="16x16" />
+    <link
+      rel="icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
+      type="img/png"
+    />
   </head>
 
   <body>
     <header>
       <nav>
         <a href="/" class="active">CYXYM</a>
-        <a href="history">ИСТОРИЯ</a>
-        <a href="guide">ГИД</a>
-        <a href="people">ЛЮДИ</a>
+        <a href="/history">История</a>
+        <a href="/guide">Гид</a>
+        <a href="/people">Люди</a>
       </nav>
     </header>
     <main>
       <h1>CYXYM</h1>
       <figure>
-        <img src="/images/CYXYM.jpg" alt="Сухумский берег. Море" />
+        <img src="/src/images/cyxym-main.jpg" alt="Сухумский берег. Море" />
       </figure>
     </main>
     <footer>
@@ -74,19 +136,11 @@
       >
       и
       <a
-        href="/humans.txt
+        href="/about
       "
-        target="_blank"
-        rel="noopener"
         >друзья</a
       >
     </footer>
-    <script>
-      const container = document.getElementById("year");
-      const date = new Date();
-      const year = date.getFullYear();
-
-      container.innerHTML = year;
-    </script>
+    <script async src="/src/scripts/date.js"></script>
   </body>
 </html>

@@ -1,54 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>ГИД</title>
+    <title>Гид по Сухуму</title>
+
+    <!-- HTML Meta Tags -->
     <meta
       name="Description"
-      content="Это гид по городу Сухум! Мы постарались и собрали лучшие места в нашем городе. Осталось только зайти на сайт,  прочитать про город и ехать сюда!"
+      content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед..."
     />
-    <meta charset="utf-8" />
-    <meta name="theme-color" content="#CD3333" />
-    <meta name="viewport" content="width=device-width" />
-    <meta itemprop="name" content="ГИД" />
+    <meta name="theme-color" content="#COLOUR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" cont="ie=edge" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Гид по Сухуму" />
     <meta
       itemprop="description"
-      content="Это гид по городу Сухум! Мы постарались и собрали лучшие места в нашем городе. Осталось только зайти на сайт,  прочитать про город и ехать сюда!"
+      content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед..."
     />
-    <meta itemprop="image" content="/images/GUIDEOG.jpg" />
+    <meta
+      itemprop="image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- Facebook Open Graph Meta Tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/GUIDEOG.jpg" />
-    <meta property="og:url" content="https://cyxym.cf/guide" />
-    <meta property="og:title" content="ГИД" />
+    <meta
+      property="og:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+    <meta property="og:url" content="https://cyxym.netlify.com/guide" />
+    <meta property="og:title" content="Гид по Сухуму" />
     <meta
       property="og:description"
-      content="Это гид по городу Сухум! Мы постарались и собрали лучшие места в нашем городе. Осталось только зайти на сайт,  прочитать про город и ехать сюда!"
+      content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед..."
     />
     <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://cyxym.cf/guide" />
-    <meta name="twitter:title" content="ГИД" />
+    <meta name="twitter:url" content="https://cyxym.netlify.com/guide" />
+    <meta name="twitter:title" content="Гид по Сухуму" />
     <meta
       name="twitter:description"
-      content="Это гид по городу Сухум! Мы постарались и собрали лучшие места в нашем городе. Осталось только зайти на сайт,  прочитать про город и ехать сюда!"
+      content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед..."
     />
-    <meta name="twitter:image" content="/images/GUIDEOG.jpg" />
-    <link rel="manifest" href="../manifest.json" />
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/dark.css" />
-    <link rel="apple-touch-icon" sizes="128x128" href="/logos/logo-128.png" />
-    <link rel="apple-touch-icon" sizes="64x64" href="/logos/logo-64.png" />
-    <link rel="apple-touch-icon" sizes="32x32" href="/logos/logo-32.png" />
-    <link rel="apple-touch-icon" sizes="16x16" href="/logos/logo-16.png" />
+    <meta
+      name="twitter:image"
+      content="https://cyxym.netlify.com/src/images/og.png"
+    />
+
+    <!-- IOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Гид по Сухуму" />
+
+    <!-- Linked files -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="/src/styles/mobile.css"
+      media="none"
+      onload="if(media!='screen and (max-width: 768px)')media='screen and (max-width: 768px)'"
+    />
+    <link rel="stylesheet" href="/src/styles/dark.css" />
+
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="/src/images/logos/logo-128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
+    />
     <link
       rel="icon"
-      type="img/png"
-      href="/logos/logo-r-128.png"
       sizes="128x128"
+      href="/src/images/logos/logo-128.png"
+      type="img/png"
     />
-    <link rel="icon" type="img/png" href="/logos/logo-r-64.png" sizes="64x64" />
-    <link rel="icon" type="img/png" href="/logos/logo-r-32.png" sizes="32x32" />
-    <link rel="icon" type="img/png" href="/logos/logo-r-16.png" sizes="16x16" />
+    <link
+      rel="icon"
+      sizes="64x64"
+      href="/src/images/logos/logo-64.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="/src/images/logos/logo-32.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="/src/images/logos/logo-16.png"
+      type="img/png"
+    />
   </head>
 
   <body>
@@ -63,65 +126,41 @@
     <main>
       <h1>ГИД</h1>
       <figure>
-        <img src="/images/GUIDE.jpg" alt="Гид по Сухуму" />
+        <img src="/src/images/guide-main.jpg" alt="Гид по Сухуму" />
       </figure>
       <nav>
-        <a
-          href="#first"
-          onclick="event.preventDefault();document.getElementById('first').scrollIntoView({ behavior: 'smooth' });"
-          >Карта</a
-        >
+        <a href="#first">Карта</a>
         <span>·</span>
 
-        <a
-          href="#second"
-          onclick="event.preventDefault();document.getElementById('second').scrollIntoView({ behavior: 'smooth' });"
-          >Природа</a
-        >
+        <a href="#second">Природа</a>
         <span>·</span>
 
-        <a
-          href="#third"
-          onclick="event.preventDefault();document.getElementById('third').scrollIntoView({ behavior: 'smooth' });"
-          >Места</a
-        >
+        <a href="#third">Места</a>
         <span>·</span>
 
-        <a
-          href="#fourth"
-          onclick="event.preventDefault();document.getElementById('fourth').scrollIntoView({ behavior: 'smooth' });"
-          >Рестораны</a
-        >
+        <a href="#fourth">Рестораны</a>
         <span>·</span>
 
-        <a
-          href="#fifth"
-          onclick="event.preventDefault();document.getElementById('fifth').scrollIntoView({ behavior: 'smooth' });"
-          >Отели</a
-        >
+        <a href="#fifth">Отели</a>
         <span>·</span>
 
-        <a
-          href="#sixth"
-          onclick="event.preventDefault();document.getElementById('sixth').scrollIntoView({ behavior: 'smooth' });"
-          >Интересное</a
-        >
+        <a href="#sixth">Интересное</a>
       </nav>
       <h2 id="first">Карта</h2>
       <figure>
-        <img src="/images/MAP.jpg" alt="Карта Сухума" loading="lazy" />
+        <img src="/src/images/guide-1.jpg" alt="Карта Сухума" loading="lazy" />
         <figcaption>Карта Сухума</figcaption>
       </figure>
       <h2 id="second">Природа</h2>
       <h3>Цветы</h3>
       <figure>
         <img
-          src="/images/FLOWERS1.jpg"
+          src="/src/images/guide-2.jpg"
           alt="Прирожа Сухума: красные цветы"
           loading="lazy"
         />
         <img
-          src="/images/FLOWERS2.jpg"
+          src="/src/images/guide-3.jpg"
           alt="Природа Сухума: белые цветы"
           loading="lazy"
         />
@@ -136,12 +175,12 @@
       <h3>Закат</h3>
       <figure>
         <img
-          src="/images/SUNSET2.jpg"
+          src="/src/images/guide-4.jpg"
           alt="Природа Сухума: море и закат"
           loading="lazy"
         />
         <img
-          src="/images/SUNSET1.jpg"
+          src="/src/images/guide-5.jpg"
           alt="Природа Сухума: закат"
           loading="lazy"
         />
@@ -162,11 +201,19 @@
         В городе много памятников, которые чтят память великих людей.
       </p>
       <figure>
-        <img src="/images/DRAM.jpg" alt="Абхазский драм-театр" loading="lazy" />
+        <img
+          src="/src/images/guide-6.jpg"
+          alt="Абхазский Драматический театр"
+          loading="lazy"
+        />
         <figcaption>Абхазский Драматический театр</figcaption>
       </figure>
       <figure>
-        <img src="/images/RUSDRAM.jpg" alt="Русдрам" loading="lazy" />
+        <img
+          src="/src/images/guide-7.jpg"
+          alt="Русский Драматический театр"
+          loading="lazy"
+        />
         <figcaption>Русский Драматический театр</figcaption>
       </figure>
       <h2 id="fourth">Рестораны</h2>
@@ -179,7 +226,7 @@
       </p>
       <h3>Нартаа</h3>
       <figure>
-        <img src="/images/NARTAA.jpg" alt="Нартаа" loading="lazy" />
+        <img src="/src/images/guide-8.jpg" alt="Нартаа" loading="lazy" />
         <figcaption>Нартаа</figcaption>
       </figure>
       <p>
@@ -199,8 +246,8 @@
       </p>
       <h3>Country Chicken</h3>
       <figure>
-        <img src="/images/CHICKEN.jpg" alt="Кантри Чикен" loading="lazy" />
-        <figcaption>Country Chicken</figcaption>
+        <img src="/src/images/guide-9.jpg" alt="Кантри Чикен" loading="lazy" />
+        <figcaption>Кантри Чикен</figcaption>
       </figure>
       <p>
         Country Chicken — заведение фастфуда. "Чикен" является одним из
@@ -225,8 +272,12 @@
       </p>
       <h3>Леон</h3>
       <figure>
-        <img src="/images/LEON.jpg" alt="Отель-ресторан Леон" loading="lazy" />
-        <figcaption>Отель Леон</figcaption>
+        <img
+          src="/src/images/guide-10.jpg"
+          alt="Отель-ресторан Леон"
+          loading="lazy"
+        />
+        <figcaption>Отель-ресторан Леон</figcaption>
       </figure>
       <p>
         В отеле "Леон" есть номера как люкс, так и эконом классов. Есть
@@ -235,7 +286,7 @@
       </p>
       <h3>Рица</h3>
       <figure>
-        <img src="/images/RITSAH.jpg" alt="Отель Рица" loading="lazy" />
+        <img src="/src/images/guide-11.jpg" alt="Отель Рица" loading="lazy" />
         <figcaption>Отель Рица</figcaption>
       </figure>
       <p>
@@ -245,8 +296,12 @@
       </p>
       <h3>Атриум-Виктория</h3>
       <figure>
-        <img src="/images/ATRIUM.jpg" alt="Атриум-Виктория" loading="lazy" />
-        <figcaption>Номер в Атриум-Виктория</figcaption>
+        <img
+          src="/src/images/guide-12.jpg"
+          alt="Атриум-Виктория"
+          loading="lazy"
+        />
+        <figcaption>Атриум-Виктория</figcaption>
       </figure>
       <p>
         Если вы желаете остановиться вблизи Сухумской бухты, то
@@ -266,11 +321,11 @@
       <h3>Колоннада на набережной</h3>
       <figure>
         <img
-          src="/images/KARTINY.jpg"
+          src="/src/images/guide-13.jpg"
           alt="Картины на колоннаде"
           loading="lazy"
         />
-        <figcaption>Колоннада</figcaption>
+        <figcaption>Картины на колоннаде</figcaption>
       </figure>
       <p>
         Колоннада — интересное место на набережной Сухума. Основной особенностью
@@ -281,7 +336,7 @@
       </p>
       <h3>Абхазский государственный музей</h3>
       <figure>
-        <img src="/images/DOLMEN.jpg" alt="Дольмен" loading="lazy" />
+        <img src="/src/images/guide-14.jpg" alt="Дольмен" loading="lazy" />
         <figcaption>Дольмен</figcaption>
       </figure>
       <p>
@@ -292,8 +347,12 @@
       </p>
       <h3>Сухумский ботанический сад</h3>
       <figure>
-        <img src="/images/BOTANIC.jpg" alt="Ботанический сад" loading="lazy" />
-        <figcaption>Деревья в саду</figcaption>
+        <img
+          src="/src/images/guide-15.jpg"
+          alt="Ботанический сад"
+          loading="lazy"
+        />
+        <figcaption>Ботанический сад</figcaption>
       </figure>
       <p>
         Одной из достопримечательностей является Сухумский ботанический сад.
@@ -304,8 +363,12 @@
       </p>
       <h3>Обезьяний питомник</h3>
       <figure>
-        <img src="/images/APE.jpg" alt="Обезьяний питомник" loading="lazy" />
-        <figcaption>Памятник в питомнике</figcaption>
+        <img
+          src="/src/images/guide-16.jpg"
+          alt="Обезьяний питомник"
+          loading="lazy"
+        />
+        <figcaption>Обезьяний питомник</figcaption>
       </figure>
       <p>
         Сухумский обезьяний питомник – это визитная карточка города. Он
@@ -328,19 +391,12 @@
       >
       и
       <a
-        href="/humans.txt
+        href="/about
       "
-        target="_blank"
-        rel="noopener"
         >друзья</a
       >
     </footer>
-    <script>
-      const container = document.getElementById("year");
-      const date = new Date();
-      const year = date.getFullYear();
-
-      container.innerHTML = year;
-    </script>
+    <script async src="/src/scripts/date.js"></script>
+    <script async src="/src/scripts/scroll.js"></script>
   </body>
 </html>
