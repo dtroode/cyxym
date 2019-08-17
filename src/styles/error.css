@@ -1,0 +1,10 @@
+body,
+h1 {
+  background-color: var(--accent);
+}
+h1 {
+  border-color: rgba(150, 18, 18, 0.75);
+}
+a:hover {
+  color: var(--background);
+}
