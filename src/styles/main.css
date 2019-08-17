@@ -46,13 +46,21 @@ body > * {
   margin-left: auto;
 }
 
+header nav a,
+h3 {
+  font-size: 1.5rem;
+}
+
 header nav a {
   text-transform: uppercase;
 }
 
 main nav {
   margin-top: 3rem;
-  color: var(--gray);
+}
+
+main nav a {
+  font-size: 1rem;
 }
 
 footer {
@@ -67,12 +75,6 @@ h3,
 figcaption,
 footer {
   text-align: center;
-}
-
-nav a,
-nav span,
-h3 {
-  font-size: 1.5rem;
 }
 
 nav a {
