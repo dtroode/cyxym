@@ -1,3 +1,5 @@
+const links = document.querySelectorAll("main nav a");
+
 links.forEach(link => {
   link.addEventListener("click", function(event) {
     event.preventDefault();
