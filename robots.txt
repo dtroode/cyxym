@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://cyxym.netlify.com/sitemap.xml
+Host: https://cyxym.netlify.com
