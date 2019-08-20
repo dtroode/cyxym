@@ -78,8 +78,9 @@ footer {
 }
 
 nav a {
-  padding: 0.1rem 0.296rem;
+  padding: 0.075rem 0.296rem;
   white-space: pre;
+  display: inline-block;
 }
 
 h1,
