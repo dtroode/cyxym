@@ -1,13 +1,13 @@
 @font-face {
   font-family: "PT Root UI";
-  font-display: swap;
+  font-display: fallback;
   font-weight: normal;
   src: url("/src/fonts/PT\ Root\ UI_Regular.woff2?v=3.5") format("woff2");
 }
 
 @font-face {
   font-family: "PT Root UI";
-  font-display: swap;
+  font-display: fallback;
   font-weight: bold;
   src: url("/src/fonts/PT\ Root\ UI_Bold.woff2?v=3.5") format("woff2");
 }
