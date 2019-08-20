@@ -16,7 +16,7 @@
   --background: #ffffff;
   --foreground: #000000;
   --accent: #cd3333;
-  --gray: rgba(204, 204, 204, 0.75);
+  --gray: rgba(204, 204, 204, 0.5);
 }
 
 *::selection {
@@ -78,7 +78,7 @@ footer {
 }
 
 nav a {
-  margin: 0.296rem;
+  padding: 0.1rem 0.296rem;
   white-space: pre;
 }
 
@@ -159,7 +159,9 @@ a:hover {
 }
 
 a.active {
-  color: var(--gray);
+  border-radius: 0.2rem;
+  color: var(--accent);
+  background-color: var(--gray);
   pointer-events: none;
   cursor: default;
 }
