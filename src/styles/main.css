@@ -161,7 +161,6 @@ a:hover {
 
 a.active {
   border-radius: 0.2rem;
-  color: var(--accent);
   background-color: var(--gray);
   pointer-events: none;
   cursor: default;
