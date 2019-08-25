@@ -107,13 +107,12 @@ figure {
 
 h1 {
   position: relative;
-  z-index: 1;
   left: 50%;
   transform: translateX(-50%);
   display: table;
   height: 4.5rem;
   margin-top: 1rem;
-  margin-bottom: -2.5rem;
+  margin-bottom: -2.25rem;
   padding: 0 1rem;
   border: 1.5px solid var(--gray);
   font-size: 3.375rem;
