@@ -1,33 +1,51 @@
+<script>
+  import { scrollTo } from "../../../scroll.js";
+
+  const content = [
+    { id: "#first", name: "-VI — I" },
+    { id: "#second", name: "I — VI" },
+    { id: "#third", name: "VI — X" },
+    { id: "#fourth", name: "X — XVII" },
+    { id: "#fifth", name: "XVII — XIX" },
+    { id: "#sixth", name: "XIX — XX" },
+    { id: "#seventh", name: "XX" },
+  ];
+</script>
+
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>HISTORY</title>
+  <meta
+    name="Description"
+    content="History of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
+  />
+  <meta itemprop="name" content="HISTORY" />
+  <meta
+    itemprop="description"
+    content="THistory of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
+  />
+  <meta property="og:url" content="https://cyxym.netlify.com/en/history" />
+  <meta property="og:title" content="HISTORY" />
+  <meta
+    property="og:description"
+    content="THistory of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
+  />
+  <meta name="twitter:url" content="https://cyxym.netlify.com/en/history" />
+  <meta name="twitter:title" content="HISTORY" />
+  <meta
+    name="twitter:description"
+    content="THistory of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
+  />
+  <meta name="apple-mobile-web-app-title" content="HISTORY" />
 </svelte:head>
 
-<h1>History</h1>
-
+<h1>HISTORY</h1>
 <figure>
   <img src="images/history-main.jpg" alt="History of Abkhazia" />
 </figure>
-
 <nav>
-  <a href="#first">-VI — I</a>
-  <span>·</span>
-
-  <a href="#second">I — VI</a>
-  <span>·</span>
-
-  <a href="#third">VI — X</a>
-  <span>·</span>
-
-  <a href="#fourth">X — XVII</a>
-  <span>·</span>
-
-  <a href="#fifth">XVII — XIX</a>
-  <span>·</span>
-
-  <a href="#sixth">XIX — XX</a>
-  <span>·</span>
-
-  <a href="#seventh">XX</a>
+  {#each content as item}
+  <button href="{item.id}" on:click="{scrollTo}">{item.name}</button>
+  {/each}
 </nav>
 <h2 id="first">-VI c. — I c.</h2>
 <figure>
