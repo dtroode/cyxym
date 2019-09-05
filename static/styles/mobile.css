@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  header nav {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    box-shadow: unset;
+  }
+}
