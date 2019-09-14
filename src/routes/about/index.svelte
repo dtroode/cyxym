@@ -9,13 +9,13 @@
     itemprop="description"
     content="Информация о создателях сайта о Сухуме. Кто и зачем?"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/about" />
+  <meta property="og:url" content="https://cyxym.now.sh/about" />
   <meta property="og:title" content="КТО?" />
   <meta
     property="og:description"
     content="Информация о создателях сайта о Сухуме. Кто и зачем?"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/about" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/about" />
   <meta name="twitter:title" content="КТО?" />
   <meta
     name="twitter:description"

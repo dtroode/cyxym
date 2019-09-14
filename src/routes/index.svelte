@@ -9,13 +9,13 @@
     itemprop="description"
     content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/" />
+  <meta property="og:url" content="https://cyxym.now.sh/" />
   <meta property="og:title" content="CYXYM" />
   <meta
     property="og:description"
     content="Сухум — это длинная история с 6 века до нашей эры, много туристических мест, отелей и ресторанов и дружелюбный народ со своей кухней"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/" />
   <meta name="twitter:title" content="CYXYM" />
   <meta
     name="twitter:description"

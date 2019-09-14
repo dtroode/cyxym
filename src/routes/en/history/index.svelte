@@ -23,13 +23,13 @@
     itemprop="description"
     content="THistory of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/en/history" />
+  <meta property="og:url" content="https://cyxym.now.sh/en/history" />
   <meta property="og:title" content="HISTORY" />
   <meta
     property="og:description"
     content="THistory of Sukhum starts from -VI century, when Greeks decided to visit the Black Sea and became interestedd in coasts, where were a lot of tasty and beautiful. They established colony. To be continued…"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/en/history" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/en/history" />
   <meta name="twitter:title" content="HISTORY" />
   <meta
     name="twitter:description"

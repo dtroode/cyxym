@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "cyxym-city",
-  "alias": "cyxym-city.now.sh",
+  "name": "cyxym",
+  "alias": "cyxym.now.sh",
   "routes": [
     {
       "src": "/*",

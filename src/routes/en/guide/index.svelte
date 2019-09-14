@@ -22,13 +22,13 @@
     itemprop="description"
     content="There are a lot of interesting and cool places in Sukhum, where you can look at our culture and history, eat and get the rest. You need the guide. Let's take a look"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/en/guide" />
+  <meta property="og:url" content="https://cyxym.now.sh/en/guide" />
   <meta property="og:title" content="GUIDE" />
   <meta
     property="og:description"
     content="There are a lot of interesting and cool places in Sukhum, where you can look at our culture and history, eat and get the rest. You need the guide. Let's take a look"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/en/guide" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/en/guide" />
   <meta name="twitter:title" content="GUIDE" />
   <meta
     name="twitter:description"

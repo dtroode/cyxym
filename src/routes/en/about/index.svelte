@@ -9,13 +9,13 @@
     itemprop="description"
     content="Information about website creator. Who and why?"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/en/about" />
+  <meta property="og:url" content="https://cyxym.now.sh/en/about" />
   <meta property="og:title" content="WHO?" />
   <meta
     property="og:description"
     content="Information about website creator. Who and why?"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/en/about" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/en/about" />
   <meta name="twitter:title" content="WHO?" />
   <meta
     name="twitter:description"

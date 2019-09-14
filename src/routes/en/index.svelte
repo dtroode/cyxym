@@ -9,13 +9,13 @@
     itemprop="description"
     content="Sukhum is the long story, that starts from 6th century BC, its a lot of tourists, hotels and restaurants, its the honest people with own cuisine"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/en" />
+  <meta property="og:url" content="https://cyxym.now.sh/en" />
   <meta property="og:title" content="CYXYM" />
   <meta
     property="og:description"
     content="Sukhum is the long story, that starts from 6th century BC, its a lot of tourists, hotels and restaurants, its the honest people with own cuisine"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/en" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/en" />
   <meta name="twitter:title" content="CYXYM" />
   <meta
     name="twitter:description"

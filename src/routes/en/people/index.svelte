@@ -21,13 +21,13 @@
     itemprop="description"
     content="The population of Sukhum is a very progressive young people and a wise old part. Here we talk about hospitality, interests and trditions"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/en/people" />
+  <meta property="og:url" content="https://cyxym.now.sh/en/people" />
   <meta property="og:title" content="PEOPLE" />
   <meta
     property="og:description"
     content="The population of Sukhum is a very progressive young people and a wise old part. Here we talk about hospitality, interests and trditions"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/en/people" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/en/people" />
   <meta name="twitter:title" content="PEOPLE" />
   <meta
     name="twitter:description"

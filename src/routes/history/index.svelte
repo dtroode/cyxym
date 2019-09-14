@@ -23,13 +23,13 @@
     itemprop="description"
     content="История Сухума начинается с 6 века до нашей эры, когда греки решили посетить Черное Море и заинтересовались берегами, где было много вкусного и красивого. Они основали свои поселения. Продолжение следует…"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/history" />
+  <meta property="og:url" content="https://cyxym.now.sh/history" />
   <meta property="og:title" content="ИСТОРИЯ" />
   <meta
     property="og:description"
     content="История Сухума начинается с 6 века до нашей эры, когда греки решили посетить Черное Море и заинтересовались берегами, где было много вкусного и красивого. Они основали свои поселения. Продолжение следует…"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/history" />
+  <meta name="twitter:url" content="https://cyxym.now.sh/history" />
   <meta name="twitter:title" content="ИСТОРИЯ" />
   <meta
     name="twitter:description"
