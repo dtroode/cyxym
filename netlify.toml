@@ -1,3 +1,7 @@
+[build]
+  command = "npm run netlify:build"
+  publish = "__sapper__/export"
+
 [[redirects]]
   from = "/"
   to = "/en/"
