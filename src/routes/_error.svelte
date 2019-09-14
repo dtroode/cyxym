@@ -18,10 +18,10 @@
 
 <header>
   <nav>
-    <a href="ru">Cyxym</a>
-    <a rel="prefetch" href="ru/history">История</a>
-    <a rel="prefetch" href="ru/guide">Гид</a>
-    <a rel="prefetch" href="ru/people">Люди</a>
+    <a href="">Cyxym</a>
+    <a rel="prefetch" href="/history">История</a>
+    <a rel="prefetch" href="/guide">Гид</a>
+    <a rel="prefetch" href="/people">Люди</a>
   </nav>
 </header>
 <main>
@@ -37,7 +37,7 @@
   >
   и
   <a
-    href="ru/about
+    href="/about
 		"
     >друзья</a
   >

@@ -1,5 +1,5 @@
 <script>
-	import Nav from '../../components/Nav.svelte';
+	import Nav from '../components/Nav.svelte';
 
 	export let segment;
 	export let language = "ru";
@@ -18,10 +18,10 @@
 	<a href="https://davidkistauri.now.sh" target="_blank" rel="noopener">Давид Кистаури</a>
 	и
 	{#if segment === undefined}
-	<a href="ru/about
+	<a href="/about
 		">друзья</a> · <a href="/en">EN</a>
 	{:else}
-	<a href="ru/about
+	<a href="/about
 		">друзья</a> · <a href="/en/{segment}">EN</a>
 	{/if}
 </footer>

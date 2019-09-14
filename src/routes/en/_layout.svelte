@@ -19,9 +19,9 @@
 	and
 	{#if segment === undefined}
 	<a href="en/about
-		">friends</a> · <a href="/ru">РУ</a>
+		">friends</a> · <a href="/">РУ</a>
 	{:else}
 	<a href="en/about
-		">friends</a> · <a href="/ru/{segment}">РУ</a>
+		">friends</a> · <a href="//{segment}">РУ</a>
 	{/if}
 </footer>

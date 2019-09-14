@@ -40,23 +40,23 @@
 </nav>
 {:else}
 <nav>
-  <a class='{segment === undefined ? "selected" : ""}' href="ru">Cyxym</a>
+  <a class='{segment === undefined ? "selected" : ""}' href="/">Cyxym</a>
   <a
     rel="prefetch"
     class='{segment === "history" ? "selected" : ""}'
-    href="ru/history"
+    href="/history"
     >История</a
   >
   <a
     rel="prefetch"
     class='{segment === "guide" ? "selected" : ""}'
-    href="ru/guide"
+    href="/guide"
     >Гид</a
   >
   <a
     rel="prefetch"
     class='{segment === "people" ? "selected" : ""}'
-    href="ru/people"
+    href="/people"
     >Люди</a
   >
 </nav>

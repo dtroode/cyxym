@@ -1,5 +1,5 @@
 <script>
-  import { scrollTo } from "../../../scroll.js";
+  import { scrollTo } from "../../scroll.js";
 
   const content = [
     { id: "#first", name: "Язык" },
@@ -21,13 +21,13 @@
     itemprop="description"
     content="Население Сухума — прогрессивная молодежь, которая не отстает и мудрая старшая часть. О гостеприимстве, увлечениях и традициях"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/ru/people" />
+  <meta property="og:url" content="https://cyxym.netlify.com/people" />
   <meta property="og:title" content="ЛЮДИ" />
   <meta
     property="og:description"
     content="Население Сухума — прогрессивная молодежь, которая не отстает и мудрая старшая часть. О гостеприимстве, увлечениях и традициях"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/ru/people" />
+  <meta name="twitter:url" content="https://cyxym.netlify.com/people" />
   <meta name="twitter:title" content="ЛЮДИ" />
   <meta
     name="twitter:description"

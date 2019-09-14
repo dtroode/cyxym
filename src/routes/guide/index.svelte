@@ -1,5 +1,5 @@
 <script>
-  import { scrollTo } from "../../../scroll.js";
+  import { scrollTo } from "../../scroll.js";
 
   const content = [
     { id: "#first", name: "Карта" },
@@ -22,13 +22,13 @@
     itemprop="description"
     content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед"
   />
-  <meta property="og:url" content="https://cyxym.netlify.com/ru/guide" />
+  <meta property="og:url" content="https://cyxym.netlify.com/guide" />
   <meta property="og:title" content="ГИД" />
   <meta
     property="og:description"
     content="В Сухуме много крутых мест: посмотреть, развлечься, поесть, отдохнуть. Вам же нужен гид. Вперед"
   />
-  <meta name="twitter:url" content="https://cyxym.netlify.com/ru/guide" />
+  <meta name="twitter:url" content="https://cyxym.netlify.com/guide" />
   <meta name="twitter:title" content="ГИД" />
   <meta
     name="twitter:description"
