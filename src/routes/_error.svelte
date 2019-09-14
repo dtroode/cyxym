@@ -18,7 +18,7 @@
 
 <header>
   <nav>
-    <a href="">Cyxym</a>
+    <a href="/">Cyxym</a>
     <a rel="prefetch" href="/history">История</a>
     <a rel="prefetch" href="/guide">Гид</a>
     <a rel="prefetch" href="/people">Люди</a>
