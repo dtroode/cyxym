@@ -1,6 +1,5 @@
 <script>
   export let segment;
-  export let language;
 </script>
 
 <style>
@@ -16,29 +15,6 @@
   }
 </style>
 
-{#if language === "en"}
-<nav>
-  <a class='{segment === undefined ? "selected" : ""}' href="en">Cyxym</a>
-  <a
-    rel="prefetch"
-    class='{segment === "history" ? "selected" : ""}'
-    href="en/history"
-    >History</a
-  >
-  <a
-    rel="prefetch"
-    class='{segment === "guide" ? "selected" : ""}'
-    href="en/guide"
-    >Guide</a
-  >
-  <a
-    rel="prefetch"
-    class='{segment === "people" ? "selected" : ""}'
-    href="en/people"
-    >People</a
-  >
-</nav>
-{:else}
 <nav>
   <a class='{segment === undefined ? "selected" : ""}' href="/">Cyxym</a>
   <a
@@ -60,4 +36,3 @@
     >Люди</a
   >
 </nav>
-{/if}
