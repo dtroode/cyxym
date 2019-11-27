@@ -1,6 +1,5 @@
 {
   "version": 2,
   "name": "cyxym",
-  "alias": "cyxym.now.sh",
-  "scope": "/__sapper__/export"
+  "alias": "cyxym.now.sh"
 }
