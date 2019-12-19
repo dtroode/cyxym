@@ -4,6 +4,7 @@
 
 <style>
   a {
+    font-size: 1.5rem;
     text-transform: uppercase;
   }
   a.selected {
@@ -16,23 +17,20 @@
 </style>
 
 <nav>
-  <a class='{segment === undefined ? "selected" : ""}' href="/">Cyxym</a>
+  <a class={segment === undefined ? 'selected' : ''} href="/">Cyxym</a>
   <a
     rel="prefetch"
-    class='{segment === "history" ? "selected" : ""}'
-    href="/history"
-    >История</a
-  >
+    class={segment === 'history' ? 'selected' : ''}
+    href="/history">
+    История
+  </a>
+  <a rel="prefetch" class={segment === 'guide' ? 'selected' : ''} href="/guide">
+    Гид
+  </a>
   <a
     rel="prefetch"
-    class='{segment === "guide" ? "selected" : ""}'
-    href="/guide"
-    >Гид</a
-  >
-  <a
-    rel="prefetch"
-    class='{segment === "people" ? "selected" : ""}'
-    href="/people"
-    >Люди</a
-  >
+    class={segment === 'people' ? 'selected' : ''}
+    href="/people">
+    Люди
+  </a>
 </nav>
