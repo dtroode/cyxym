@@ -5,12 +5,6 @@
   const dev = process.env.NODE_ENV === "development";
 </script>
 
-<style>
-  header nav a {
-    text-transform: uppercase;
-  }
-</style>
-
 <svelte:head>
   <title>404</title>
   <link rel="stylesheet" href="styles/error.css" />
