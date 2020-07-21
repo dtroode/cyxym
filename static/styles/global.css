@@ -71,7 +71,9 @@ main nav button {
 nav,
 h1,
 h2,
-h3, figcaption, footer {
+h3,
+figcaption,
+footer {
   text-align: center;
 }
 
@@ -157,21 +159,8 @@ button:hover {
   color: var(--accent);
 }
 
-ul {
-  padding-inline-start: 1rem;
-}
-
-ul li {
-  margin-bottom: 0.4rem;
-  list-style-type: none;
-  list-style-position: outside;
-}
-
-ul li::before {
-  content: "— ";
-}
-
-figure, img {
+figure,
+img {
   border-radius: 0.2rem;
 }
 
@@ -194,9 +183,8 @@ img + img {
 }
 
 figcaption {
-  margin: 0.296rem 0;
-  font-size: 1rem;
-  font-style: italic;
+  margin: 0.2rem 0;
+  font-size: 0.8rem;
 }
 
 button {
