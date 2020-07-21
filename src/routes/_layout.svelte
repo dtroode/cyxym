@@ -20,12 +20,8 @@
   <slot />
 </main>
 <footer>
-  ©
-  <span>{year}</span>
-  ·
+  © <span>{year}</span>. Проект 
   <a href="https://davidkistauri.ru" target="_blank" rel="noopener">
-    Давид Кистаури
+    Давида Кистаури
   </a>
-  и
-  <a href="/us">друзья</a>
 </footer>
