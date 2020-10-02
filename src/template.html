@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#cd3333" />
+    <meta itemprop="image" content="images/og.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:image" content="images/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="images/og.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <meta name="theme-color" content="#cd3333" />
-  <meta itemprop="image" content="images/og.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="ru_RU" />
-  <meta property="og:image" content="images/og.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="images/og.png" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    %sapper.base%
 
-  %sapper.base%
+    <link rel="preload" href="fonts/pt-root-ui-bold.woff2" as="font" />
+    <link rel="preload" href="fonts/pt-root-ui-regular.woff2" as="font" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/dark.css" />
+    <link rel="manifest" href="/manifest.json" />
 
-  <link rel="preload" href="fonts/pt-root-ui-bold.woff2" as="font" />
-  <link rel="preload" href="fonts/pt-root-ui-regular.woff2" as="font" />
-  <link rel="stylesheet" href="styles/global.css" />
-  <link rel="stylesheet" href="styles/mobile.css" />
-  <link rel="stylesheet" href="styles/dark.css" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!-- Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="/images/logos/logo-128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="64x64"
+      href="/images/logos/logo-64.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="32x32"
+      href="/images/logos/logo-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="16x16"
+      href="/images/logos/logo-16.png"
+    />
+    <link
+      rel="icon"
+      sizes="128x128"
+      href="/images/logos/logo-128.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="64x64"
+      href="/images/logos/logo-64.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="/images/logos/logo-32.png"
+      type="img/png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="/images/logos/logo-16.png"
+      type="img/png"
+    />
 
-  <!-- Sapper generates a <style> tag containing critical CSS
+    <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
 	     lazily loaded when it precaches secondary pages -->
-  %sapper.styles%
+    %sapper.styles%
 
-  <!-- This contains the contents of the <svelte:head> component, if
+    <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-  %sapper.head%
-</head>
+    %sapper.head%
+  </head>
 
-<body>
-  <!-- The application will be rendered inside this element,
+  <body>
+    <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-  <div id="sapper">%sapper.html%</div>
+    <div id="sapper">%sapper.html%</div>
 
-  <!-- Sapper creates a <script> tag containing `src/client.js`
+    <!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-  %sapper.scripts%
-</body>
-
+    %sapper.scripts%
+  </body>
 </html>
