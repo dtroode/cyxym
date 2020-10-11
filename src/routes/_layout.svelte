@@ -21,7 +21,7 @@
 </main>
 <footer>
   © <span>{year}</span>. Проект 
-  <a href="https://davidkistauri.ru" target="_blank" rel="noopener">
+  <a href="https://dtroode.vercel.app" target="_blank" rel="noopener">
     Давида Кистаури
   </a>
 </footer>
