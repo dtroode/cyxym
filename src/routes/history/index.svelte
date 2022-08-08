@@ -2,12 +2,12 @@
   import { scrollTo } from "../../scroll.js";
 
   const content = [
-    { id: "#first", name: "-VI—I" },
-    { id: "#second", name: "I—VI" },
-    { id: "#third", name: "VI—X" },
-    { id: "#fourth", name: "X—XVII" },
-    { id: "#fifth", name: "XVII—XIX" },
-    { id: "#sixth", name: "XIX—XX" },
+    { id: "#first", name: "−VI–I" },
+    { id: "#second", name: "I–VI" },
+    { id: "#third", name: "VI–X" },
+    { id: "#fourth", name: "X–XVII" },
+    { id: "#fifth", name: "XVII–XIX" },
+    { id: "#sixth", name: "XIX–XX" },
     { id: "#seventh", name: "XX" },
   ];
 </script>
@@ -47,7 +47,7 @@
   <button href="{item.id}" on:click="{scrollTo}">{item.name}</button>
   {/each}
 </nav>
-<h2 id="first">-VI–I&numsp;в.</h2>
+<h2 id="first">−VI–I&numsp;в.</h2>
 <figure>
   <img
     src="images/history-1.jpg"
