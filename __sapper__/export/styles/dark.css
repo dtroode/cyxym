@@ -1,8 +1,0 @@
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --background: #121212;
-    --foreground: #fafafa;
-    --accent: #ff685d;
-    --gray: #252525;
-  }
-}

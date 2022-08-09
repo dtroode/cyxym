@@ -1,8 +1,11 @@
+# MacOS
 .DS_Store
+
+# WebStorm
 .idea
-/node_modules/
+
+node_modules
 /src/node_modules/@sapper/
 yarn-error.log
 /cypress/screenshots/
-/__sapper__/dev/
-/__sapper__/build/
+__sapper__
