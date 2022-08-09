@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://cyxym.now.sh/sitemap.xml
+Host: https://cyxym.now.sh
